@@ -1,0 +1,103 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+*{
+  box-sizing: border-box;
+}
+.container{
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+.row{
+  max-width: 1200px;
+  width: 100%;
+  margin: auto 0;
+  min-height: 20px;
+  clear: both;
+}
+#menu{
+  background: #343A40;
+  color: white;
+  padding: 20px;
+}
+
+#floating{
+  float: right;
+  margin-right: 100px;
+}
+#floating>a{
+  text-decoration: none;
+  color: #918772;
+  padding-right: 10px;
+}
+#floating>a#home{
+  color: white;
+}
+[class*="col-"] {
+  min-height: 7px;
+  float: left;
+}
+div.col-12>img{
+  max-width: 1200px;
+}
+div#bussines-name{
+  background-image: url("http://dummyimage.com/1920x400.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 400px;
+  color: white;
+  font-size: 100px;
+  font-weight: 200;
+}
+div#bussines-name>div{
+  text-align: center;
+}
+
+button{
+  color: white;
+  background: #007BFF;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+}
+#we-do{
+  margin-left: 15px;
+}
+#contact-us>p,
+#contact-us>h5{
+  margin: 0;
+}
+#phone{
+  padding-top: 22px;
+}
+#contact-us>a{
+  text-decoration: none;
+}
+div#cards>.col-4{
+  margin-top: 50px;
+}
+ .col-3-1{
+  margin: 35px 50px;
+  border: 1px lightgray solid;
+ }
+ .col-3-1>h3,
+ .col-3-1>p{
+   margin-left: 10px;
+
+}
+#find-out{
+  background: #FAFAFA;
+  border: 1px lightgray solid;
+  padding: 10px;
+  margin-top: 20px;
+}
+#copyright{
+  color: white;
+  background: #343A40;
+  text-align: center;
+  padding: 30px 0 30px 0;
+  margin-bottom: 0px;
+}

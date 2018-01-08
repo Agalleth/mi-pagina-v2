@@ -1,0 +1,93 @@
+
+@media (max-width:480px) {
+  .container{
+    margin: 0 auto;
+    min-width: 480px;
+    width: 100%;
+  }
+  .row{
+    max-width: 490px;
+    width: 100%;
+    margin: auto 0;
+    min-height: 20px;
+    clear: both;
+  }
+  #menu{
+    background: #343A40;
+    color: white;
+    padding: 20px;
+    width: 490px;
+  }
+  #floating{
+    float: right;
+    display: none;
+  }
+  [class*="col-"] {
+    min-height: 7px;
+    float: left;
+    width: 100%;
+    width: 490px;
+  }
+  div#bussines-name{
+    background-image: url("http://dummyimage.com/1920x400.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 400px;
+    color: white;
+    font-size: 100px;
+    font-weight: 200;
+    width: 490px;
+  }
+  div#bussines-name>div{
+    text-align: center;
+  }
+  .col-7{
+    width: 100%;
+  }
+  #we-do{
+    margin-left: 7px;
+    width: 490px;
+  }
+  button{
+    color: white;
+    background: #007BFF;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+  }
+  #contact-us{
+    padding-top: 40px;
+    width: 490px;
+  }
+  #contact-us>p,
+  #contact-us>h5,
+  #contact-us>h2{
+    margin: 0px 10px;
+    width: 100%;
+  }
+  #phone{
+    padding-top: 15px;
+  }
+  #contact-us>a{
+    text-decoration: none;
+    color: rgb(47, 145, 208);
+    margin: 10px;
+  }
+  .col-3-1{
+   margin: 20px 0px;
+   border: 1px lightgray solid;
+   width: 100%;
+   width: 490px;
+  }
+  .col-3-1>img{
+    width: 100%;
+    width: 490px;
+  }
+  #find-out{
+    width: 490px;
+  }
+  #copyright{
+      padding: 30px 0 30px 0;
+      margin-bottom: 0px;
+  }
